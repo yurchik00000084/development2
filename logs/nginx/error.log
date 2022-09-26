@@ -1,0 +1,389 @@
+2022/09/26 11:33:45 [notice] 1#1: using the "epoll" event method
+2022/09/26 11:33:45 [notice] 1#1: nginx/1.23.1
+2022/09/26 11:33:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 11:33:45 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 11:33:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 11:33:45 [notice] 1#1: start worker processes
+2022/09/26 11:33:45 [notice] 1#1: start worker process 30
+2022/09/26 11:33:45 [notice] 1#1: start worker process 31
+2022/09/26 11:33:45 [notice] 1#1: start worker process 32
+2022/09/26 11:33:45 [notice] 1#1: start worker process 33
+2022/09/26 11:33:45 [notice] 1#1: start worker process 34
+2022/09/26 11:33:45 [notice] 1#1: start worker process 35
+2022/09/26 11:33:45 [notice] 1#1: start worker process 36
+2022/09/26 11:33:45 [notice] 1#1: start worker process 37
+2022/09/26 11:34:22 [error] 30#30: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/09/26 11:47:03 [error] 30#30: *22 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/09/26 11:56:59 [notice] 1#1: using the "epoll" event method
+2022/09/26 11:56:59 [notice] 1#1: nginx/1.23.1
+2022/09/26 11:56:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 11:56:59 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 11:56:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 11:56:59 [notice] 1#1: start worker processes
+2022/09/26 11:56:59 [notice] 1#1: start worker process 30
+2022/09/26 11:56:59 [notice] 1#1: start worker process 31
+2022/09/26 11:56:59 [notice] 1#1: start worker process 32
+2022/09/26 11:56:59 [notice] 1#1: start worker process 33
+2022/09/26 11:56:59 [notice] 1#1: start worker process 34
+2022/09/26 11:56:59 [notice] 1#1: start worker process 35
+2022/09/26 11:56:59 [notice] 1#1: start worker process 36
+2022/09/26 11:56:59 [notice] 1#1: start worker process 37
+2022/09/26 12:01:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/26 12:01:07 [notice] 30#30: gracefully shutting down
+2022/09/26 12:01:07 [notice] 31#31: gracefully shutting down
+2022/09/26 12:01:07 [notice] 33#33: gracefully shutting down
+2022/09/26 12:01:07 [notice] 32#32: gracefully shutting down
+2022/09/26 12:01:07 [notice] 30#30: exiting
+2022/09/26 12:01:07 [notice] 34#34: gracefully shutting down
+2022/09/26 12:01:07 [notice] 35#35: gracefully shutting down
+2022/09/26 12:01:07 [notice] 31#31: exiting
+2022/09/26 12:01:07 [notice] 33#33: exiting
+2022/09/26 12:01:07 [notice] 36#36: gracefully shutting down
+2022/09/26 12:01:07 [notice] 32#32: exiting
+2022/09/26 12:01:07 [notice] 34#34: exiting
+2022/09/26 12:01:07 [notice] 35#35: exiting
+2022/09/26 12:01:07 [notice] 36#36: exiting
+2022/09/26 12:01:07 [notice] 30#30: exit
+2022/09/26 12:01:07 [notice] 31#31: exit
+2022/09/26 12:01:07 [notice] 35#35: exit
+2022/09/26 12:01:07 [notice] 32#32: exit
+2022/09/26 12:01:07 [notice] 33#33: exit
+2022/09/26 12:01:07 [notice] 34#34: exit
+2022/09/26 12:01:07 [notice] 36#36: exit
+2022/09/26 12:01:07 [notice] 37#37: gracefully shutting down
+2022/09/26 12:01:07 [notice] 37#37: exiting
+2022/09/26 12:01:07 [notice] 37#37: exit
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/09/26 12:01:07 [notice] 1#1: worker process 34 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: worker process 36 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/26 12:01:07 [notice] 1#1: worker process 33 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/09/26 12:01:07 [notice] 1#1: worker process 37 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/26 12:01:07 [notice] 1#1: worker process 30 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: worker process 31 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/26 12:01:07 [notice] 1#1: worker process 35 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/26 12:01:07 [notice] 1#1: worker process 32 exited with code 0
+2022/09/26 12:01:07 [notice] 1#1: exit
+2022/09/26 12:01:16 [notice] 1#1: using the "epoll" event method
+2022/09/26 12:01:16 [notice] 1#1: nginx/1.23.1
+2022/09/26 12:01:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 12:01:16 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 12:01:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 12:01:16 [notice] 1#1: start worker processes
+2022/09/26 12:01:16 [notice] 1#1: start worker process 30
+2022/09/26 12:01:16 [notice] 1#1: start worker process 31
+2022/09/26 12:01:16 [notice] 1#1: start worker process 32
+2022/09/26 12:01:16 [notice] 1#1: start worker process 33
+2022/09/26 12:01:16 [notice] 1#1: start worker process 34
+2022/09/26 12:01:16 [notice] 1#1: start worker process 35
+2022/09/26 12:01:16 [notice] 1#1: start worker process 36
+2022/09/26 12:01:16 [notice] 1#1: start worker process 37
+2022/09/26 12:03:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/26 12:03:39 [notice] 30#30: gracefully shutting down
+2022/09/26 12:03:39 [notice] 31#31: gracefully shutting down
+2022/09/26 12:03:39 [notice] 32#32: gracefully shutting down
+2022/09/26 12:03:39 [notice] 33#33: gracefully shutting down
+2022/09/26 12:03:39 [notice] 34#34: gracefully shutting down
+2022/09/26 12:03:39 [notice] 30#30: exiting
+2022/09/26 12:03:39 [notice] 31#31: exiting
+2022/09/26 12:03:39 [notice] 32#32: exiting
+2022/09/26 12:03:39 [notice] 33#33: exiting
+2022/09/26 12:03:39 [notice] 34#34: exiting
+2022/09/26 12:03:39 [notice] 36#36: gracefully shutting down
+2022/09/26 12:03:39 [notice] 37#37: gracefully shutting down
+2022/09/26 12:03:39 [notice] 36#36: exiting
+2022/09/26 12:03:39 [notice] 31#31: exit
+2022/09/26 12:03:39 [notice] 32#32: exit
+2022/09/26 12:03:39 [notice] 34#34: exit
+2022/09/26 12:03:39 [notice] 30#30: exit
+2022/09/26 12:03:39 [notice] 33#33: exit
+2022/09/26 12:03:39 [notice] 37#37: exiting
+2022/09/26 12:03:39 [notice] 36#36: exit
+2022/09/26 12:03:39 [notice] 37#37: exit
+2022/09/26 12:03:39 [notice] 35#35: gracefully shutting down
+2022/09/26 12:03:39 [notice] 35#35: exiting
+2022/09/26 12:03:39 [notice] 35#35: exit
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/09/26 12:03:39 [notice] 1#1: worker process 30 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: worker process 37 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/26 12:03:39 [notice] 1#1: worker process 32 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/26 12:03:39 [notice] 1#1: worker process 33 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/26 12:03:39 [notice] 1#1: worker process 31 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/09/26 12:03:39 [notice] 1#1: worker process 36 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/26 12:03:39 [notice] 1#1: worker process 35 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:03:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/26 12:03:39 [notice] 1#1: worker process 34 exited with code 0
+2022/09/26 12:03:39 [notice] 1#1: exit
+2022/09/26 12:03:44 [notice] 1#1: using the "epoll" event method
+2022/09/26 12:03:44 [notice] 1#1: nginx/1.23.1
+2022/09/26 12:03:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 12:03:44 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 12:03:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 12:03:44 [notice] 1#1: start worker processes
+2022/09/26 12:03:44 [notice] 1#1: start worker process 30
+2022/09/26 12:03:44 [notice] 1#1: start worker process 31
+2022/09/26 12:03:44 [notice] 1#1: start worker process 32
+2022/09/26 12:03:44 [notice] 1#1: start worker process 33
+2022/09/26 12:03:44 [notice] 1#1: start worker process 34
+2022/09/26 12:03:44 [notice] 1#1: start worker process 35
+2022/09/26 12:03:44 [notice] 1#1: start worker process 36
+2022/09/26 12:03:44 [notice] 1#1: start worker process 37
+2022/09/26 12:03:46 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:03:55 [error] 30#30: *3 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "172.17.0.1"
+2022/09/26 12:03:55 [error] 30#30: *3 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "172.17.0.1", referrer: "http://172.17.0.1/"
+2022/09/26 12:03:57 [error] 30#30: *3 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "172.17.0.1"
+2022/09/26 12:05:32 [error] 32#32: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "172.17.0.1"
+2022/09/26 12:05:32 [error] 32#32: *6 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "172.17.0.1"
+2022/09/26 12:05:35 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:05:40 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:05:58 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:05:58 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:05:59 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:07:04 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:07:04 [error] 33#33: *9 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:09:33 [error] 34#34: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:09:34 [error] 34#34: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:09:34 [error] 34#34: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:09:47 [error] 34#34: *17 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "localhost"
+2022/09/26 12:11:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/26 12:11:03 [notice] 30#30: gracefully shutting down
+2022/09/26 12:11:03 [notice] 31#31: gracefully shutting down
+2022/09/26 12:11:03 [notice] 33#33: gracefully shutting down
+2022/09/26 12:11:03 [notice] 34#34: gracefully shutting down
+2022/09/26 12:11:03 [notice] 32#32: gracefully shutting down
+2022/09/26 12:11:03 [notice] 30#30: exiting
+2022/09/26 12:11:03 [notice] 31#31: exiting
+2022/09/26 12:11:03 [notice] 33#33: exiting
+2022/09/26 12:11:03 [notice] 34#34: exiting
+2022/09/26 12:11:03 [notice] 37#37: gracefully shutting down
+2022/09/26 12:11:03 [notice] 32#32: exiting
+2022/09/26 12:11:03 [notice] 37#37: exiting
+2022/09/26 12:11:03 [notice] 30#30: exit
+2022/09/26 12:11:03 [notice] 33#33: exit
+2022/09/26 12:11:03 [notice] 31#31: exit
+2022/09/26 12:11:03 [notice] 34#34: exit
+2022/09/26 12:11:03 [notice] 32#32: exit
+2022/09/26 12:11:03 [notice] 37#37: exit
+2022/09/26 12:11:03 [notice] 35#35: gracefully shutting down
+2022/09/26 12:11:03 [notice] 35#35: exiting
+2022/09/26 12:11:03 [notice] 35#35: exit
+2022/09/26 12:11:03 [notice] 36#36: gracefully shutting down
+2022/09/26 12:11:03 [notice] 36#36: exiting
+2022/09/26 12:11:03 [notice] 36#36: exit
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/26 12:11:03 [notice] 1#1: worker process 35 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/26 12:11:03 [notice] 1#1: worker process 30 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/26 12:11:03 [notice] 1#1: worker process 33 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/26 12:11:03 [notice] 1#1: worker process 34 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/09/26 12:11:03 [notice] 1#1: worker process 36 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: worker process 32 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: worker process 37 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 12:11:03 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/09/26 12:11:03 [notice] 1#1: worker process 31 exited with code 0
+2022/09/26 12:11:03 [notice] 1#1: exit
+2022/09/26 12:11:45 [notice] 1#1: using the "epoll" event method
+2022/09/26 12:11:45 [notice] 1#1: nginx/1.23.1
+2022/09/26 12:11:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 12:11:45 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 12:11:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 12:11:45 [notice] 1#1: start worker processes
+2022/09/26 12:11:45 [notice] 1#1: start worker process 30
+2022/09/26 12:11:45 [notice] 1#1: start worker process 31
+2022/09/26 12:11:45 [notice] 1#1: start worker process 32
+2022/09/26 12:11:45 [notice] 1#1: start worker process 33
+2022/09/26 12:11:45 [notice] 1#1: start worker process 34
+2022/09/26 12:11:45 [notice] 1#1: start worker process 35
+2022/09/26 12:11:45 [notice] 1#1: start worker process 36
+2022/09/26 12:11:45 [notice] 1#1: start worker process 37
+2022/09/26 12:12:59 [error] 34#34: *9 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/09/26 12:14:10 [notice] 1#1: using the "epoll" event method
+2022/09/26 12:14:10 [notice] 1#1: nginx/1.23.1
+2022/09/26 12:14:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/26 12:14:10 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/26 12:14:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/26 12:14:10 [notice] 1#1: start worker processes
+2022/09/26 12:14:10 [notice] 1#1: start worker process 30
+2022/09/26 12:14:10 [notice] 1#1: start worker process 31
+2022/09/26 12:14:10 [notice] 1#1: start worker process 32
+2022/09/26 12:14:10 [notice] 1#1: start worker process 33
+2022/09/26 12:14:10 [notice] 1#1: start worker process 34
+2022/09/26 12:14:10 [notice] 1#1: start worker process 35
+2022/09/26 12:14:10 [notice] 1#1: start worker process 36
+2022/09/26 12:14:10 [notice] 1#1: start worker process 37
+2022/09/26 12:14:38 [error] 32#32: *4 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:15:43 [error] 32#32: *4 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:16:58 [error] 34#34: *11 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:20:17 [error] 36#36: *15 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:31:16 [error] 31#31: *27 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:37:08 [error] 31#31: *52 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:39:35 [error] 31#31: *58 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:45:31 [error] 32#32: *73 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:48:03 [error] 30#30: *87 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 12:51:01 [error] 30#30: *87 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:17:43 [error] 30#30: *103 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:21:19 [error] 30#30: *108 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:23:00 [error] 30#30: *108 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:38:41 [error] 32#32: *116 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:43:53 [error] 32#32: *122 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:47:33 [error] 32#32: *125 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 13:54:08 [error] 33#33: *144 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:05:53 [error] 33#33: *170 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:19:19 [error] 35#35: *178 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:46:44 [error] 35#35: *195 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:48:19 [error] 35#35: *201 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:48:33 [error] 35#35: *201 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:50:26 [error] 34#34: *206 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:50:46 [error] 34#34: *206 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:51:06 [error] 34#34: *206 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:51:18 [error] 34#34: *206 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:52:57 [error] 34#34: *212 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:53:02 [error] 34#34: *212 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:53:16 [error] 34#34: *212 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:57:41 [error] 35#35: *216 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:57:41 [error] 35#35: *216 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 14:57:50 [error] 35#35: *216 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:01:02 [error] 35#35: *221 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:03:38 [error] 35#35: *224 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:03:53 [error] 35#35: *224 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:04:05 [error] 35#35: *224 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:06:01 [error] 34#34: *229 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:06:23 [error] 34#34: *229 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:07:57 [error] 34#34: *233 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:08:17 [error] 34#34: *233 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:08:38 [error] 34#34: *233 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:18:08 [error] 36#36: *238 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:20:07 [error] 36#36: *238 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:22:16 [error] 34#34: *248 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:26:19 [error] 34#34: *263 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:27:53 [error] 34#34: *263 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.3:9000", host: "localhost"
+2022/09/26 15:35:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/09/26 15:35:39 [notice] 31#31: gracefully shutting down
+2022/09/26 15:35:39 [notice] 30#30: gracefully shutting down
+2022/09/26 15:35:39 [notice] 34#34: gracefully shutting down
+2022/09/26 15:35:39 [notice] 31#31: exiting
+2022/09/26 15:35:39 [notice] 30#30: exiting
+2022/09/26 15:35:39 [notice] 37#37: gracefully shutting down
+2022/09/26 15:35:39 [notice] 34#34: exiting
+2022/09/26 15:35:39 [notice] 37#37: exiting
+2022/09/26 15:35:39 [notice] 31#31: exit
+2022/09/26 15:35:39 [notice] 30#30: exit
+2022/09/26 15:35:39 [notice] 37#37: exit
+2022/09/26 15:35:39 [notice] 34#34: exit
+2022/09/26 15:35:39 [notice] 33#33: gracefully shutting down
+2022/09/26 15:35:39 [notice] 33#33: exiting
+2022/09/26 15:35:39 [notice] 36#36: gracefully shutting down
+2022/09/26 15:35:39 [notice] 36#36: exiting
+2022/09/26 15:35:39 [notice] 33#33: exit
+2022/09/26 15:35:39 [notice] 36#36: exit
+2022/09/26 15:35:39 [notice] 32#32: gracefully shutting down
+2022/09/26 15:35:39 [notice] 32#32: exiting
+2022/09/26 15:35:39 [notice] 32#32: exit
+2022/09/26 15:35:39 [notice] 35#35: gracefully shutting down
+2022/09/26 15:35:39 [notice] 35#35: exiting
+2022/09/26 15:35:39 [notice] 35#35: exit
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/09/26 15:35:39 [notice] 1#1: worker process 37 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/09/26 15:35:39 [notice] 1#1: worker process 33 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/09/26 15:35:39 [notice] 1#1: worker process 32 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/09/26 15:35:39 [notice] 1#1: worker process 35 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/09/26 15:35:39 [notice] 1#1: worker process 34 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: worker process 36 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/09/26 15:35:39 [notice] 1#1: worker process 31 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/09/26 15:35:39 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/09/26 15:35:39 [notice] 1#1: worker process 30 exited with code 0
+2022/09/26 15:35:39 [notice] 1#1: exit
+2022/09/27 07:01:17 [notice] 1#1: using the "epoll" event method
+2022/09/27 07:01:17 [notice] 1#1: nginx/1.23.1
+2022/09/27 07:01:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/27 07:01:17 [notice] 1#1: OS: Linux 5.15.0-46-generic
+2022/09/27 07:01:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/27 07:01:17 [notice] 1#1: start worker processes
+2022/09/27 07:01:17 [notice] 1#1: start worker process 30
+2022/09/27 07:01:17 [notice] 1#1: start worker process 31
+2022/09/27 07:01:17 [notice] 1#1: start worker process 32
+2022/09/27 07:01:17 [notice] 1#1: start worker process 33
+2022/09/27 07:01:17 [notice] 1#1: start worker process 34
+2022/09/27 07:01:17 [notice] 1#1: start worker process 35
+2022/09/27 07:01:17 [notice] 1#1: start worker process 36
+2022/09/27 07:01:17 [notice] 1#1: start worker process 37
+2022/09/27 07:01:32 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.17.0.1:9003 (through xdebug.client_host/xdebug.client_port) :-(" while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 07:01:32 [error] 31#31: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/09/27 07:42:35 [error] 30#30: *4 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 07:46:41 [error] 36#36: *17 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 07:49:20 [error] 31#31: *21 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:31:58 [error] 31#31: *31 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:35:19 [error] 31#31: *31 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:36:32 [error] 31#31: *31 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:39:58 [error] 31#31: *45 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:48:09 [error] 31#31: *51 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 08:53:51 [error] 30#30: *55 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 09:31:38 [error] 30#30: *58 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:05:30 [error] 34#34: *115 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:07:42 [error] 32#32: *117 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:14:24 [error] 34#34: *126 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:20:10 [error] 35#35: *152 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:27:44 [error] 35#35: *170 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:29:30 [error] 35#35: *170 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:41:10 [error] 35#35: *186 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:44:47 [error] 33#33: *193 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:51:15 [error] 33#33: *207 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:54:04 [error] 33#33: *217 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:56:19 [error] 37#37: *221 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 10:58:42 [error] 37#37: *229 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:00:00 [error] 37#37: *233 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:03:58 [error] 37#37: *247 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:05:18 [error] 37#37: *247 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:07:15 [error] 36#36: *253 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:36:28 [error] 36#36: *258 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 11:38:58 [error] 36#36: *263 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 12:55:05 [error] 36#36: *265 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:00:10 [error] 31#31: *289 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:04:08 [error] 30#30: *305 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:20:23 [error] 31#31: *308 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:22:12 [error] 31#31: *308 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:25:00 [error] 31#31: *308 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:35:37 [error] 31#31: *316 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:38:29 [error] 31#31: *319 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 13:40:10 [error] 31#31: *319 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 14:17:54 [error] 32#32: *328 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 14:23:07 [error] 30#30: *333 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
+2022/09/27 15:02:50 [error] 30#30: *336 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.25.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.25.0.2:9000", host: "localhost"
